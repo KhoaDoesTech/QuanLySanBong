@@ -104,5 +104,6 @@ public class FormActivity extends AppCompatActivity {
     public void onBackPressed() {
         finishAffinity();
         System.exit(0);
+        super.onBackPressed();
     }
 }
