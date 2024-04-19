@@ -18,7 +18,6 @@ import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 public class FormActivity extends AppCompatActivity {
-
     public LoginFragment loginFragment;
     private ViewPager2 viewPager2;
     private TabLayout tabLayout;
@@ -104,6 +103,5 @@ public class FormActivity extends AppCompatActivity {
     public void onBackPressed() {
         finishAffinity();
         System.exit(0);
-        super.onBackPressed();
     }
 }
