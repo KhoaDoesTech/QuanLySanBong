@@ -13,7 +13,59 @@
         android:theme="@style/Theme.QuanLySanBong"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.admin.SalaryDetailsActivityAdmin"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.admin.SalaryDetailsActivityStaff"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.admin.ShowDetailsStatistical"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.admin.ShowCaThiDauActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.user.ChangePassActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.user.ChangeProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.user.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.user.ProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.SelectTypeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +73,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.user.NapTienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.CategoryPitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.CategoryManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.user.UserDatSanChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.user.UserMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.ListServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.ListCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.admin.MainActivity"
+            android:exported="false" />
+        <activity android:name=".activity.admin.DatSanChiTietActivity" />
+        <activity
+            android:name=".activity.admin.FormActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
