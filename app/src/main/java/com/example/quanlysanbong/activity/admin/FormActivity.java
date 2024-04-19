@@ -38,6 +38,7 @@ public class FormActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tablayout_form);
 
         if (MyApplication.CURRENT_TYPE == MyApplication.TYPE_USER) {
+
             new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
                 if (position == 0) tab.setText("Log In");
                 else if (position == 1) tab.setText("Sign Up");
